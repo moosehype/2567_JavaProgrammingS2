@@ -1,0 +1,11 @@
+class FirstPrograme{
+	public static void main(String[] args){
+		System.out.print("StudentID: 2413110962"+
+				 "\nStudentName: Weerapat Anuoje"+
+				 "\nTopic: Github"+
+				 "\nDate: 11/20/2024");
+		JOptionPane.showMessageDialog(null,"StudentID: 2413110962"+
+				 	      "\nStudentName: Weerapat Anuoje"+
+				 	      "\nTopic: Github"+
+				 	      "\nDate: 11/20/2024"
+				 	      JOptionPane.PLAIN_MESSAGE);
