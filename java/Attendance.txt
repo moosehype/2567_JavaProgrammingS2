@@ -1,4 +1,4 @@
 Student ID:2413110962
 Studen Name:Weerapat Anuroje
-Topic:Display,Variable and inputs
-Date:11/27/2024
+Topic:LabSheet2
+Date:12/4/2024
