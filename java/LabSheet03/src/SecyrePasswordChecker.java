@@ -19,8 +19,20 @@ public class SecyrePasswordChecker {
 			boolean hasUpperCase = false;
 			boolean hasLowerCase = false;
 			boolean hasDigit = false;
+			for(int i=0; i<password.length(); i++) {
+				char ch= password.charAt(i);
+				if(ch >= 'A'&& ch<='Z') {
+					hasUpperCase = true;
+				}
+				else if(ch >= 'a'&& ch<='z') {
+					hasLowerCase = true;
+				}
+				else if(ch >= '0'&& ch<='9') {
+					hasDigit = true;
+				}
+		
 		}
-
+		scan.close();
 	}
-
+	}
 }
