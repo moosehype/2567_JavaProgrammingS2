@@ -18,13 +18,14 @@ public class LabSheet403 {
 		input.close();
 	}
 	public static String abbreviantName(String fName) {
-		String initalletter="";
+		String initailetter="";
 		for(int i=0;i<fName.length();i++) {
 			if(fName.charAt(i)==' ') {
-				initalletter =(initalletter+fName.charAt(i+1)).toUpperCase();
+				initailetter =(initailetter+fName.charAt(i+1)).toUpperCase();
+				initailetter = initailetter + ".";
 			}
 			
-		}return initalletter;
+		}return initailetter;
 	}
 
 }
