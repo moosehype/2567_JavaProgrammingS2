@@ -1,8 +1,4 @@
-
 public interface Book {
-
-	String getTitle();
-
-	
-
+	public String getTitle();
+	public int totalPublicYear();
 }
